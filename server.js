@@ -4,6 +4,7 @@ var bodyParser = require('body-parser');
 var oracledb = require('oracledb');
 oracledb.autoCommit = true;
 var app = express();
+// kenneth version
 // use TCP port 8080 for ACCS, 9000 for linux VM
 // can also use export PORT=9000 before npm start
 var PORT = process.env.PORT || 8080;
