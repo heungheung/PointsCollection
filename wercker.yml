@@ -5,6 +5,7 @@ build:
         dockerfile: Dockerfile
         image-name: pointscollection
     - internal/docker-push:
+        image-name: pointscollection
         username: $DOCKER_USER
         password: $DOCKER_PASSWORD
         repository: $DOCKER_REPO
